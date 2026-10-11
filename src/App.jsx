@@ -21,10 +21,10 @@ import OrdersPage from "./components/OrdersPage";
 import SettingsPage from "./components/SettingsPage";
 
 import "./styles/layout.css";
-import "./styles/overview.css";
+import "./styles/Overview.css";
 import "./styles/analytics.css";
-import "./styles/customers.css";
-import "./styles/orders.css";
+import "./styles/Customers.css";
+import "./styles/Orders.css";
 import "./styles/theme.css";
 import "./styles/transactions.css";
 import "./styles/settings.css";
