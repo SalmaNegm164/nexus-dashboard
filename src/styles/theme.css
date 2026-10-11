@@ -1,0 +1,378 @@
+.theme-light {
+  color: #172033;
+  background: #f4f7fc;
+  color-scheme: light;
+
+  --light-bg: #f4f7fc;
+  --light-surface: #ffffff;
+  --light-surface-alt: #f8faff;
+  --light-border: #e2e8f0;
+  --light-text: #172033;
+  --light-muted: #64748b;
+  --light-hover: #edf2fa;
+  --light-input: #ffffff;
+}
+
+/* Main layout */
+
+.theme-light.app-shell {
+  background: var(--light-bg);
+  color: var(--light-text);
+}
+
+.theme-light .main-content {
+  background: var(--light-bg);
+}
+
+.theme-light .dashboard-content {
+  color: var(--light-text);
+}
+
+/* Sidebar */
+
+.theme-light .sidebar {
+  background: var(--light-surface);
+  border-right: 1px solid var(--light-border);
+}
+
+.theme-light .brand h2,
+.theme-light .profile-info strong {
+  color: var(--light-text);
+}
+
+.theme-light .brand span,
+.theme-light .profile-info span,
+.theme-light .nav-label {
+  color: var(--light-muted);
+}
+
+.theme-light .nav-item {
+  color: var(--light-muted);
+}
+
+.theme-light .nav-item:hover,
+.theme-light .nav-active {
+  color: #4263eb;
+  background: #edf2ff;
+}
+
+.theme-light .profile {
+  border-top-color: var(--light-border);
+}
+
+.theme-light .upgrade-card {
+  background: #f1f5ff;
+  border-color: #dce5ff;
+}
+
+.theme-light .upgrade-card h3 {
+  color: #172554;
+}
+
+.theme-light .upgrade-card p {
+  color: #64748b;
+}
+
+/* Topbar */
+
+.theme-light .topbar {
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom-color: var(--light-border);
+}
+
+.theme-light .breadcrumb span {
+  color: var(--light-muted);
+}
+
+.theme-light .breadcrumb strong {
+  color: var(--light-text);
+}
+
+.theme-light .search-box,
+.theme-light .transaction-search {
+  background: var(--light-surface-alt);
+  border-color: var(--light-border);
+  color: var(--light-muted);
+}
+
+.theme-light .search-box input,
+.theme-light .transaction-search input {
+  color: var(--light-text);
+}
+
+.theme-light .search-box input::placeholder,
+.theme-light .transaction-search input::placeholder {
+  color: #94a3b8;
+}
+
+.theme-light .search-box kbd {
+  color: var(--light-muted);
+  background: #eef2f7;
+  border-color: var(--light-border);
+}
+
+.theme-light .icon-button {
+  color: var(--light-muted);
+}
+
+.theme-light .icon-button:hover {
+  background: var(--light-hover);
+  color: var(--light-text);
+}
+
+/* Headings and descriptions */
+
+.theme-light .welcome-row h1,
+.theme-light .section-heading h2,
+.theme-light .panel-heading h2,
+.theme-light .transactions-header h2 {
+  color: var(--light-text);
+}
+
+.theme-light .page-description,
+.theme-light .section-heading p,
+.theme-light .panel-heading p,
+.theme-light .transactions-header p,
+.theme-light .comparison {
+  color: var(--light-muted);
+}
+
+/* Date button */
+
+.theme-light .date-button,
+.theme-light .chart-period,
+.theme-light .transaction-filter select,
+.theme-light .pagination-controls select {
+  color: var(--light-text);
+  background: var(--light-surface);
+  border-color: var(--light-border);
+}
+
+/* Statistic cards */
+
+.theme-light .stat-card,
+.theme-light .panel,
+.theme-light .summary-card,
+.theme-light .transactions-section {
+  background: var(--light-surface);
+  border-color: var(--light-border);
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.035);
+}
+
+.theme-light .stat-title,
+.theme-light .summary-label {
+  color: var(--light-muted);
+}
+
+.theme-light .stat-value,
+.theme-light .summary-card h3 {
+  color: var(--light-text);
+}
+
+.theme-light .card-menu {
+  color: var(--light-muted);
+}
+
+/* Chart */
+
+.theme-light .chart-period {
+  color-scheme: light;
+}
+
+.theme-light .recharts-cartesian-grid-horizontal line {
+  stroke: #e2e8f0;
+}
+
+.theme-light .recharts-cartesian-axis-tick text {
+  fill: #64748b;
+}
+
+/* Activity */
+
+.theme-light .activity-details strong {
+  color: var(--light-text);
+}
+
+.theme-light .activity-details span,
+.theme-light .activity-item time {
+  color: var(--light-muted);
+}
+
+.theme-light .activity-item {
+  border-bottom-color: var(--light-border);
+}
+
+/* Transaction controls */
+
+.theme-light .transaction-filter {
+  color: var(--light-muted);
+}
+
+.theme-light .sort-button {
+  color: var(--light-muted);
+}
+
+.theme-light .transactions-table thead {
+  background: #f8faff;
+}
+
+.theme-light .transactions-table th {
+  color: #64748b;
+  border-bottom-color: var(--light-border);
+}
+
+.theme-light .transactions-table td {
+  color: #334155;
+  border-bottom-color: var(--light-border);
+}
+
+.theme-light .transactions-table tbody tr:hover {
+  background: #f8faff;
+}
+
+.theme-light .customer-cell span {
+  color: var(--light-text);
+}
+
+.theme-light .customer-cell small {
+  color: var(--light-muted);
+}
+
+.theme-light .transaction-id {
+  color: #4263eb;
+}
+
+.theme-light .transactions-footer,
+.theme-light .pagination-info,
+.theme-light .pagination-controls,
+.theme-light .pagination-page {
+  color: var(--light-muted);
+}
+
+.theme-light .pagination-btn {
+  color: #334155;
+  background: var(--light-surface);
+  border-color: var(--light-border);
+}
+
+.theme-light .pagination-btn:hover:not(:disabled) {
+  background: #edf2ff;
+  border-color: #c7d2fe;
+}
+
+.theme-light .pagination-btn:disabled {
+  opacity: 0.45;
+}
+
+/* Action buttons */
+
+.theme-light .edit-transaction-btn {
+  color: #4263eb;
+  background: #edf2ff;
+}
+
+.theme-light .delete-transaction-btn {
+  color: #e11d48;
+  background: #fff1f2;
+}
+
+/* Modal */
+
+.theme-light .edit-modal {
+  color: var(--light-text);
+  background: var(--light-surface);
+  border-color: var(--light-border);
+}
+
+.theme-light .edit-modal-header {
+  border-bottom-color: var(--light-border);
+}
+
+.theme-light .edit-modal-header h2 {
+  color: var(--light-text);
+}
+
+.theme-light .edit-modal-header p,
+.theme-light .edit-form-group label {
+  color: var(--light-muted);
+}
+
+.theme-light .edit-form-group input,
+.theme-light .edit-form-group select {
+  color: var(--light-text);
+  background: var(--light-input);
+  border-color: var(--light-border);
+}
+
+.theme-light .edit-form-group input::placeholder {
+  color: #94a3b8;
+}
+
+.theme-light .edit-modal-close,
+.theme-light .cancel-edit-btn {
+  color: #475569;
+  background: #f1f5f9;
+  border-color: var(--light-border);
+}
+
+.theme-light .form-helper-text {
+  color: var(--light-muted);
+}
+
+/* Footer */
+
+.theme-light .dashboard-footer {
+  color: var(--light-muted);
+  border-top-color: var(--light-border);
+}
+
+/* Toast remains readable in both themes */
+
+.theme-light .toast-notification {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 18px 55px rgba(15, 23, 42, 0.15);
+}
+
+.theme-light .toast-content strong {
+  color: #172033;
+}
+
+.theme-light .toast-content p {
+  color: #64748b;
+}
+
+.theme-light .toast-close {
+  color: #64748b;
+}
+
+.theme-light .toast-close:hover {
+  color: #172033;
+  background: #edf2f7;
+}
+
+/* Theme toggle */
+
+.theme-light .theme-toggle {
+  color: #d97706;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+}
+
+.theme-light .theme-toggle:hover {
+  color: #b45309;
+  background: #ffedd5;
+}
+
+/* Light mode dropdown options */
+
+.theme-light select option {
+  color: #172033;
+  background: #ffffff;
+}
+
+/* Responsive overlay */
+
+.theme-light .mobile-overlay {
+  background: rgba(15, 23, 42, 0.35);
+}
